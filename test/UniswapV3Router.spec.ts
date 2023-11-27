@@ -28,7 +28,7 @@ const createFixtureLoader = waffle.createFixtureLoader
 
 type ThenArg<T> = T extends PromiseLike<infer U> ? U : T
 describe('UniswapV3Pool Router', function (){
-  this.timeout(10000000)
+  this.timeout(300000)
   let wallet: Wallet, other: Wallet
 
   let token0: TestERC20
