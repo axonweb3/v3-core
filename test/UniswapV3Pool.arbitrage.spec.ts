@@ -49,7 +49,7 @@ function applySqrtRatioBipsHundredthsDelta(sqrtRatio: BigNumber, bipsHundredths:
 }
 
 describe('UniswapV3Pool arbitrage tests -1', function () {
-    this.timeout(100000000)
+    this.timeout(1800000)
     let wallet: Wallet, arbitrageur: Wallet
 
     let loadFixture: ReturnType<typeof createFixtureLoader>
@@ -386,7 +386,7 @@ describe('UniswapV3Pool arbitrage tests -1', function () {
 })
 
 describe('UniswapV3Pool arbitrage tests -2', function () {
-    this.timeout(100000000)
+    this.timeout(1800000)
     let wallet: Wallet, arbitrageur: Wallet
 
     let loadFixture: ReturnType<typeof createFixtureLoader>

@@ -16,7 +16,7 @@ const TEST_ADDRESSES: [string, string] = [
 const createFixtureLoader = waffle.createFixtureLoader
 
 describe('UniswapV3Factory', function (){
-  this.timeout(10000000)
+  this.timeout(300000)
   let wallet: Wallet, other: Wallet
 
   let factory: UniswapV3Factory
